@@ -1,0 +1,19 @@
+.tutorial-container {
+flex-grow: 1; /* Allow container to grow and fill remaining space */
+  text-align: center; /* Center text horizontally */
+  margin: auto; /* Center horizontally within remaining space */
+  display: flex;
+  align-items: center; /* Center text vertically (optional) */
+  justify-content: center; /* Center content horizontally (optional) */
+}
+
+.tutorial-text {
+    font-size: 5rem; /* Adjust font size if needed (original: text-6xl) */ 
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    font-weight: bold; /* Matches font-bold */
+    padding: 1rem 2rem; /* Adjust padding if needed (original: md:px-20 pb-10) */
+    background-image: linear-gradient(to right,#cccccc , #808080);
+    background-clip: text; /* Matches bg-clip-text */
+    color: transparent; /* Matches text-transparent */
+}
