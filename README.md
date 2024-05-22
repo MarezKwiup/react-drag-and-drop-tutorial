@@ -7,3 +7,4 @@ This project is a React application that demonstrates the concepts of drag and d
 - A chessboard layout with draggable chess pieces (currently featuring a knight piece).
 - Implementation of drag and drop behavior using `react-dnd`.
 - Potential for further expansion to include other chess pieces and functionalities.
+
